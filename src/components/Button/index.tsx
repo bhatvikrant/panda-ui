@@ -1,3 +1,5 @@
+import React from "react";
+
 // TS INTERFACES
 interface Props {
   label: string;
