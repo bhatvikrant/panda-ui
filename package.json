@@ -31,6 +31,6 @@
   ],
   "types": "dist/index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/bhatvikrant"
+    "registry": "https://npm.pkg.github.com/panda-ui"
   }
 }

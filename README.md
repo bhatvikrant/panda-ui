@@ -80,7 +80,7 @@
         ```json
         "name": "@YOUR_GITHUB_USERNAME/YOUR_GITHUB_REPO_NAME", // eg. "name": "@bhatvikrant/panda-ui",
         "publishConfig": {
-             "registry": "https://npm.pkg.github.com/YOUR_GITHUB_USERNAME"
+             "registry": "https://npm.pkg.github.com/YOUR_REPOSITORY_NAME"
         }
         ```
     - run `cd ~ && nano .npmrc`
