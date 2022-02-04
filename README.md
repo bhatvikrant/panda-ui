@@ -5,7 +5,7 @@
 3. run `yarn add -D react typescript @types/react`
 4. run `npx tsc --init` to generate `tsconfig.json`
     - add the following to tsconfig.json:
-    ```js
+    ```json
         "jsx": "react",
         "module": "ESNext",
         "declaration": true,
@@ -64,7 +64,7 @@
 ```
 
 8. add the following to `package.json`
-```js
+```json
  "scripts": {
     "rollup": "rollup -c" // "-c" means run rollup with a config file (rollup.config.js)
   },
@@ -74,6 +74,22 @@
   "types": "dist/index.d.ts"
 ```
 
+9. Push all the code to an empty public github repository.
+10. Now its time to publish this library to NPM as a package
+    - update package.json with: 
+        ```json
+        "name": "@YOUR_GITHUB_USERNAME/YOUR_GITHUB_REPO_NAME", // eg. "name": "@bhatvikrant/panda-ui",
+        "publishConfig": {
+             "registry": "https://npm.pkg.github.com/YOUR_GITHUB_USERNAME"
+        }
+        ```
+    - run `cd ~ && nano .npmrc`
+    then paste the following in `.npmrc`
+    ```bash
+        registry=https://registry.npmjs.org/
+        @YOUR_GITHUB_USERNAME:registry=https://npm.pkg.github.com/
+        //npm.pkg.github.com/:_authToken=YOUR_AUTH_TOKEN
+    ```
 
 
 

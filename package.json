@@ -1,5 +1,5 @@
 {
-  "name": "panda-ui",
+  "name": "@bhatvikrant/panda-ui",
   "version": "0.0.1",
   "description": "A react component library for building beautiful and consistent user interfaces",
   "scripts": {
@@ -29,5 +29,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/bhatvikrant"
+  }
 }
