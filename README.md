@@ -2,5 +2,21 @@
 
 1. make a folder
 2. run: `npm init -y`
-3. install react, react-dom as devDependencies, add them as peerDependencies also in package.json
-4. 
+3. run `yarn add -D react typescript @types/react`
+4. Create a component to test at `/src/components` for eg. a Button component
+    - import this Button component into `src/components/index.tsx` and then export it like: `export { default as Button } from "./Button"`
+    - import components into `src/index.ts` and then export it like: `export * from "./components"`
+
+
+
+
+
+
+
+
+
+
+
+
+
+> Note: video tutorial at https://www.youtube.com/watch?v=XHQi5a0TmMc&t=58s&ab_channel=AlexEagleson
