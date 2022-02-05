@@ -29,6 +29,7 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       # - run: npm ci
+      - run: npm whoami
       - run: npm publish --access public # This will tell npm to publish your scoped package with public access.
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
