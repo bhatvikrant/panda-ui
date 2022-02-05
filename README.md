@@ -2,7 +2,7 @@
 
 1. make a folder
 2. run: `npm init -y`
-3. run `yarn add -D react typescript @types/react`
+3. run `yarn add -D react react-dom typescript @types/react`
 4. run `npx tsc --init` to generate `tsconfig.json`
     - add the following to tsconfig.json:
     ```json
@@ -89,6 +89,31 @@
         registry=https://registry.npmjs.org/
         @YOUR_GITHUB_USERNAME:registry=https://npm.pkg.github.com/
         //npm.pkg.github.com/:_authToken=YOUR_AUTH_TOKEN
+    ```
+
+11. Add testing using jest & react testing library
+    - run: `yarn add -D @testing-library/react jest @types/jest`
+    - create `jest.config.js` with data: 
+        ```js
+      
+        module.exports = {
+            testEnvironment: "jsdom", // jsdom allows you to simulate DOM for testing
+            moduleNameMapper: {
+                ".(css|less|scss)$": "identity-obj-proxy",
+            },
+        };
+        ```
+    - add tests for Button component in `src/components/Button/index.test.ts`
+    - install babel so that jsx is compatible with jest `@babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript babel-jest babel-loader identity-obj-proxy`
+    - create `babel.config.js` with: 
+    ```js
+    module.exports = {
+        presets: [
+            "@babel/preset-env",
+            "@babel/preset-react",
+            "@babel/preset-typescript",
+        ],
+    };
     ```
 
 # To create a release, run the following
