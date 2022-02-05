@@ -4,6 +4,9 @@
 name: 🎉 Release to NPM & GPR
 
 on:
+  push:
+    branches:
+      - main
   release:
     types: [created]
 
