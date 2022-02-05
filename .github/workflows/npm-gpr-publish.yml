@@ -17,7 +17,7 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm run rollup
-      - run: npm test
+      # - run: npm test
 
   publish-npm:
     needs: build
@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: npm ci
+      # - run: npm ci
       - run: npm publish --access public # This will tell npm to publish your scoped package with public access.
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
@@ -46,7 +46,7 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
           scope: '@bhatvikrant'
-      - run: npm ci
+      # - run: npm ci
       - run: echo registry=https://npm.pkg.github.com/bhatvikrant >> .npmrc
       - run: npm publish
         env:
