@@ -1,6 +1,6 @@
 {
   "name": "@bhatvikrant/panda-ui",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A react component library for building beautiful and consistent user interfaces",
   "scripts": {
     "rollup": "rollup -c"
