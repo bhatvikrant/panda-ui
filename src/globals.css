@@ -1,6 +1,4 @@
 :root {
-    font-size: 62.5%;
-
     --color-primary-900: #111111;
     --color-primary-800: #333333;
     --color-primary-700: #444444;
@@ -13,6 +11,4 @@
     --color-danger: #F21361;
     --color-warning: #F5A623;
     --color-info: #0070F3;
-
-    
 }

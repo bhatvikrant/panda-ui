@@ -1,10 +1,10 @@
 :root {
-    --avatar--xs: 2.4rem;
-    --avatar--sm: 3.2rem;
-    --avatar--md: 4.8rem;
-    --avatar--lg: 6.4rem;
-    --avatar--xl: 9.6rem;
-    --avatar--2xl: 12.8rem;
+    --avatar--xs: 1.5rem;
+    --avatar--sm: 2rem;
+    --avatar--md: 3rem;
+    --avatar--lg: 4rem;
+    --avatar--xl: 6rem;
+    --avatar--2xl: 8rem;
 }
 
 
