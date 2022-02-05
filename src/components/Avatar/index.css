@@ -1,0 +1,104 @@
+:root {
+    --avatar--xs: 2.4rem;
+    --avatar--sm: 3.2rem;
+    --avatar--md: 4.8rem;
+    --avatar--lg: 6.4rem;
+    --avatar--xl: 9.6rem;
+    --avatar--2xl: 12.8rem;
+}
+
+
+.avatar__img {
+    object-fit: cover;
+    border-radius: 50%;    
+}
+
+
+.avatar__parent {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.avatar--squared {
+    border-radius: 10%;
+}
+
+/* ====================== AVATAR SIZES ====================== */
+.avatar--xs {
+    height: var(--avatar--xs);
+    width: var(--avatar--xs);
+}
+.avatar--sm {
+    height: var(--avatar--sm);
+    width: var(--avatar--sm);
+}
+.avatar--md {
+    height: var(--avatar--md);
+    width: var(--avatar--md);
+}
+.avatar--lg {
+    height: var(--avatar--lg);
+    width: var(--avatar--lg);
+}
+.avatar--xl {
+    height: var(--avatar--xl);
+    width: var(--avatar--xl);
+}
+.avatar--2xl {
+    height: var(--avatar--2xl);
+    width: var(--avatar--2xl);
+}
+
+/* ====================== AVATAR BORDERED ====================== */
+.avatar--bordered--primary {
+    padding: 0.2rem;
+    border: 2px solid var(--color-primary-900);
+}
+.avatar--bordered--secondary {
+    padding: 0.2rem;
+    border: 2px solid var(--color-secondary-300);
+}
+.avatar--bordered--success {
+    padding: 0.2rem;
+    border: 2px solid var(--color-success);
+}
+.avatar--bordered--danger {
+    padding: 0.2rem;
+    border: 2px solid var(--color-danger);
+}
+.avatar--bordered--warning {
+    padding: 0.2rem;
+    border: 2px solid var(--color-warning);
+}
+.avatar--bordered--info {
+    padding: 0.2rem;
+    border: 2px solid var(--color-info);
+}
+
+/* ====================== AVATAR BACKGROUND ====================== */
+.avatar--bg--primary {
+    background-color: var(--color-primary-900);
+    color: white;
+}
+.avatar--bg--secondary {
+    background-color: var(--color-secondary-300);
+    color: white;
+}
+.avatar--bg--success {
+    background-color: var(--color-success);
+    color: white;
+}
+.avatar--bg--danger {
+    background-color: var(--color-danger);
+    color: white;
+}
+.avatar--bg--warning {
+    background-color: var(--color-warning);
+    color: white;
+}
+.avatar--bg--info {
+    background-color: var(--color-info);
+    color: white;
+}

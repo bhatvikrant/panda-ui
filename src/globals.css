@@ -1,0 +1,18 @@
+:root {
+    font-size: 62.5%;
+
+    --color-primary-900: #111111;
+    --color-primary-800: #333333;
+    --color-primary-700: #444444;
+    
+    --color-secondary-300: #C1C1C1;
+    --color-secondary-200: #EAEAEA;
+    --color-secondary-100: #F4F4F4;
+
+    --color-success: #17C964;
+    --color-danger: #F21361;
+    --color-warning: #F5A623;
+    --color-info: #0070F3;
+
+    
+}
