@@ -116,6 +116,9 @@
     };
     ```
 
+12. Install storybook 
+    - run: `npx sb init`
+
 # To create a release, run the following
  ```bash 
  git tag 0.0.1                                                    
