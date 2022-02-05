@@ -20,7 +20,7 @@
     - import this Button component into `src/components/index.tsx` and then export it like: `export { default as Button } from "./Button"`
     - import components into `src/index.ts` and then export it like: `export * from "./components"`
 
-6. Install rollup, run: `yarn add -D rollup @rollup/plugin-node-resolve @rollup/plugin-commonjs @rollup/plugin-typescript rollup-plugin-dts rollup-plugin-postcss tslib`
+6. Install rollup, run: `yarn add -D rollup @rollup/plugin-node-resolve @rollup/plugin-commonjs @rollup/plugin-typescript rollup-plugin-dts rollup-plugin-postcss css-loader tslib`
 
 7. Create `rollup.config.json` in the root with data: 
 ```js
