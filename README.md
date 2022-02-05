@@ -99,3 +99,4 @@
 
 
 > Note: video tutorial at https://www.youtube.com/watch?v=XHQi5a0TmMc&t=58s&ab_channel=AlexEagleson
+> How to publish to NPM & GPR: https://dev.to/joeattardi/how-to-publish-an-npm-package-to-npm-and-github-package-registry-simultaneously-using-github-actions-213a
