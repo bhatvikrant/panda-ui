@@ -1,6 +1,6 @@
 {
   "name": "@bhatvikrant/panda-ui",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "A react component library for building beautiful and consistent user interfaces",
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
-    "/dist"
+    "/dist/**/*"
   ],
   "types": "dist/index.d.ts",
   "publishConfig": {
