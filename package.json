@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "rollup": "rollup -c",
-    "prepublishOnly": "npm run rollup"
+    "prepublishOnly": "npm install && npm run rollup"
   },
   "keywords": [],
   "author": "Vikrant Bhat",
