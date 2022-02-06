@@ -127,3 +127,28 @@ InfoColor.args = {
   color: "info",
   text: "Info",
 };
+
+// SQUARED
+export const Squared = Template.bind({});
+Squared.args = {
+  size: "lg",
+  src: "https://avatars.githubusercontent.com/u/50735025?v=4",
+  squared: true,
+};
+
+// BORDERED
+export const SquaredAndBordered = Template.bind({});
+SquaredAndBordered.args = {
+  size: "lg",
+  src: "https://avatars.githubusercontent.com/u/50735025?v=4",
+  squared: true,
+  bordered: true,
+};
+
+export const CircledAndBordered = Template.bind({});
+CircledAndBordered.args = {
+  size: "lg",
+  src: "https://avatars.githubusercontent.com/u/50735025?v=4",
+  bordered: true,
+  color: "success",
+};
