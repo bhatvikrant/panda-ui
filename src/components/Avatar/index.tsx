@@ -21,7 +21,7 @@ export interface Props {
   squared?: boolean;
 }
 
-const Avatar: React.FC<Props> = (props) => {
+export const Avatar: React.FC<Props> = (props) => {
   const {
     src,
     text,
@@ -73,4 +73,4 @@ const Avatar: React.FC<Props> = (props) => {
   );
 };
 
-export default Avatar;
+// export default Avatar;

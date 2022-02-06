@@ -2,7 +2,7 @@ import React from "react";
 import "../../globals.css";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import Avatar from "./index";
+import { Avatar } from "./index";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
