@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.css";
 
-type SizeType = "xs" | "sm" | "md" | "lg" | "xl" | "2xl";
-type ColorType =
+export type SizeType = "xs" | "sm" | "md" | "lg" | "xl" | "2xl";
+export type ColorType =
   | "primary"
   | "secondary"
   | "success"
